@@ -1,0 +1,348 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    text-decoration: none;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: warpen;
+    src: url(/resources/Warpen.ttf);
+}
+
+@font-face {
+    font-family: consul;
+    src: url(/resources/Consul.ttf);
+}
+
+.navbar-home {
+    font-family: consul;
+    margin: 0% 15% 30% 15%;
+}
+
+.navdiv-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv-home li {
+    list-style: none; 
+    display: inline-block;
+}
+
+.navdiv-home li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+    background-color: whitesmoke;
+    display: block;
+    border-radius: 100px;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0px 30px;
+    transition: background-color 0.5s ease;
+    transition: color 0.5 ease;
+    transition: font-family 0.5 ease;
+}
+
+.navdiv-home li a:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    font-family: consul;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    font-family: consul;
+    padding: 0% 10% 0% 10%;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name a {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: warpen;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.navdiv li {
+    list-style: none; 
+    display: inline-block;
+}
+
+.navdiv li a {
+    font-size: 20px;
+    font-weight: bold;
+    
+    color: whitesmoke;
+    background-color: black;
+    display: block;
+    border-radius: 100px;
+    text-decoration: none;
+    height: 100%;
+    line-height: 50px;
+    padding: 0px 20px;
+    transition: background-color 0.5s ease;
+    transition: color 0.5 ease;
+    transition: font-family 0.5 ease;
+}
+
+.navdiv li a:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-family: consul;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+}
+
+.hero {
+    background-image: url(/resources/dt\ 3\ wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+
+    color: whitesmoke;
+    font-size: 50px;
+    text-align:center;
+}
+
+.hero h1 {
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-family: warpen;
+    font-size: 90px;
+    margin: 15% 15% 2% 15%;
+}
+
+.divider {
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-family: consul;
+    font-size: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+.divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    width: 300px;
+    background-color: white;
+    margin: 5px;
+}
+
+.headers {
+    position: sticky;
+    top: 11.2%;
+}
+
+.headers h2 {
+    font-family: warpen;
+    font-size: 25px;
+    margin: 0% 0% 1% 0%;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 1% 0% 1% 24%;
+}
+
+.recent {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 1% 40% 2% 1%;
+    padding-bottom: 2%;
+    box-shadow: 0px 1px 5px 1px rgb(0, 0, 0, 0.5);
+}
+
+.box h3 {
+    color: white;
+    background-color: black;
+    font-family: consul;
+    padding: 5px 0px 5px 15px;
+
+    scroll-margin-top: 175px;
+}
+
+.box p {
+    display: block;
+    color: black;
+    font-family: calibri;
+    font-size: 18px;
+    margin: 2% 5% 2% 5%;
+}
+
+.side-to-side {
+    display: flex;
+    margin: 1% 5% 1% 5%;
+}
+
+.imagery {
+    margin: 1% 5% 1% 5%;
+}
+
+.box a {
+    font-family: calibri;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0% 5% 2% 5%;
+}
+
+.help {
+    background-color: whitesmoke;
+
+    height: 100%;
+    margin: 0% 10% 1% 10%;
+    padding: 2% 5% 2% 5%;
+    box-shadow: 0px 1px 5px 1px rgb(0, 0, 0, 0.5);
+}
+
+.help p {
+    color: black;
+    font-family: calibri;
+    font-size: 18px;
+    margin: 0% 0% 5% 0%;
+}
+
+.help h4 {
+    color: black;
+    font-family: consul;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about {
+    background-color: whitesmoke;
+
+    height: 450%;
+    margin: 0% 10% 0% 10%;
+    padding: 2% 5% 2% 5%;
+    box-shadow: 0px 1px 5px 1px rgb(0, 0, 0, 0.5);
+}
+
+.about p {
+    color: black;
+    font-family: calibri;
+    font-size: 18px;
+    margin: 0% 0% 5% 0%;
+}
+
+.about h4{
+    color: black;
+    font-family: consul;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0% 20%;
+}
+
+.mags{
+    background-color: black;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.hero-mags {
+    background-image: url(/resources/mags-banner-logo.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80vw;
+}
+
+.logo{
+    background-color: black;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.hero-logo {
+    background-image: url(/resources/portfolio-logo.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80vw;
+}
+
+
+
+.side-navdiv {
+    display: flex;
+}
+
+.sticky-side-nav {
+    background-color: black;
+
+    height: 550px;
+    margin: 0% 1% 0% 10%;
+
+    width: 75%;
+
+    position: sticky;
+    top: 156px;
+}
+
+.sticky-side-nav a {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: consul;
+
+    color: whitesmoke;
+    background-color: black;
+
+    display: block;
+    text-decoration: none;
+
+    height: 100%;
+    line-height: 50px;
+    padding: 0px 20px;
+    margin: 5% 15% 5% 0%;
+
+    transition: background-color 0.5s ease;
+    transition: color 0.5 ease;
+    transition: font-family 0.5 ease;
+}
+
+.sticky-side-nav a:hover{
+    background-color: whitesmoke;
+    color: black;
+
+    font-family: consul;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+}
+
+.sticky-side-nav hr {
+    margin: 0% 15% 0% 0%;
+}
